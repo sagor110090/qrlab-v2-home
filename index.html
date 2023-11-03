@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.1/font/bootstrap-icons.min.css" integrity="sha512-oAvZuuYVzkcTc2dH5z1ZJup5OmSQ000qlfRvuoTTiyTBjwX1faoyearj8KdMq0LgsBTHMrRuMek7s+CxF8yE+w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <title>TLG - QRlab</title>
-    <script type="module" crossorigin src="assets/index-f6cca5dd.js"></script>
-    <link rel="stylesheet" href="assets/index-69c3bfb4.css">
+    <script type="module" crossorigin src="assets/index-3194a557.js"></script>
+    <link rel="stylesheet" href="assets/index-50e34cec.css">
   </head>
   <body>
     <div id="loader">
@@ -1396,7 +1396,7 @@
         </div>
       </div><!-- Creator col--> 
 
-      <div class="col">
+      <div class="col save-col">
         <div class="save-qr-code-container">
           <div class="qr-code text-center">
             <!-- Created QR Code is shown here -->
@@ -1431,238 +1431,245 @@
     </div>
 
 
-    <div
-     class="container track-scans-section two-col-section"
-     style="--cols: 1.24fr 1fr"
-    >
-      <div class="col">
-        <img src="./assets/scan-tacks.svg" alt="">
-      </div>
-      <div class="col info-section">
-        <div class="small-title">Features</div>
-        <div class="title">Track scans and visits</div>
-        <p class="info">Track QR code scans with powerful real-time analytics. Gain insights into scan frequency, locations and more to inform data-driven decisions.</p>
-        <a href="#" class="rounded-btn primary">
-          <span>Create QR code</span>
-          <i class="bi bi-chevron-right"></i>
-        </a>
-      </div>
-    </div><!-- Track Scans Section -->
+    <div class="track-scans-section">
+      <div
+       class="container two-col-section"
+       style="--cols: 1.24fr 1fr"
+      >
+        <div class="col">
+          <img src="./assets/scan-tacks.svg" alt="">
+        </div>
+        <div class="col info-section">
+          <div class="small-title">Features</div>
+          <div class="title">Track scans and visits</div>
+          <p class="info">Track QR code scans with powerful real-time analytics. Gain insights into scan frequency, locations and more to inform data-driven decisions.</p>
+          <a href="#" class="rounded-btn primary">
+            <span>Create QR code</span>
+            <i class="bi bi-chevron-right"></i>
+          </a>
+        </div>
+      </div><!-- Track Scans Section -->
+    </div>
 
 
+
+    <div class="track-scans-section custom-links-section">
+      <div
+       class="container two-col-section"
+       style="--cols: 1fr 1.01fr"
+      >
+        <div class="col info-section">
+          <div class="small-title">Feature</div>
+          <div class="title">Choose a custom link for your destination</div>
+          
+          <div class="list">
+            <div class="li">
+              <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
+                <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
+              </svg>
+              <div>
+                <div class="li-title">Promote brand consistency</div>
+                <div class="li-info">Elevate brand recognition with a custom QR code link, enhancing user experience and boosting engagement.</div>
+              </div>
+            </div>
+            <div class="li">
+              <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
+                <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
+              </svg>
+              <div>
+                <div class="li-title">Encourage return visits</div>
+                <div class="li-info">Simplify sharing and enhance recall with an easy-to-remember custom link for your destination, that users can revisit with ease.</div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="rounded-btn primary">
+            <span>Create QR code</span>
+            <i class="bi bi-chevron-right"></i>
+          </a>
+        </div>
+        <div class="col">
+          <img src="./assets/custom-link.svg" alt="">
+        </div>
+      </div><!-- Custom links Section -->
+    </div>
+
+
+
+    <div class="track-scans-section">
+      <div
+       class="container two-col-section"
+       style="--cols: 1.18fr 1fr"
+      >
+        <div class="col">
+          <img src="./assets/map.svg" alt="">
+        </div>
+        <div class="col info-section">
+          <div class="small-title">Feature</div>
+          <div class="title">Send visitors to location-based destinations with geofencing</div>
+          
+          <div class="list">
+            <div class="li">
+              <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
+                <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
+              </svg>
+              <div>
+                <div class="li-title">Diversify your user experience</div>
+                <div class="li-info">Create customized experiences for users based on their physical location to provide tailored information and offers with a layer of precision and relevance.</div>
+              </div>
+            </div>
+            <div class="li">
+              <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
+                <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
+              </svg>
+              <div>
+                <div class="li-title">Multi-campaign tracking</div>
+                <div class="li-info">Receive valuable data on user interactions relevant to specific locations to measure the effectiveness of your QR code campaigns and adjust strategies accordingly.</div>
+              </div>
+            </div>
+            <div class="li">
+              <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
+                <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
+              </svg>
+              <div>
+                <div class="li-title">Control dissemination</div>
+                <div class="li-info">Restrict access to QR code destinations to authorized locations only, preventing misuse or fraud.</div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="rounded-btn primary">
+            <span>Create QR code</span>
+            <i class="bi bi-chevron-right"></i>
+          </a>
+        </div>
+      </div><!-- Location Scans Section -->
+    </div>
+
+
+    <div class="track-scans-section explore-section">
+      <div
+       class="container two-col-section"
+       style="--cols: 1.35fr 1fr"
+      >
+        <div class="col info-section">
+          <div class="small-title">Customization</div>
+          <div class="title">Explore boundless QR code design possibilities</div>
+          <p class="info">QR codes have come a long way from their black-and-white origins. 
+            Our QR code creator offers a wide array of design capabilities from animations, to shapes to frames, that can transform these internationally recognized symbols into engaging, on-brand assets.</p>
+          <a href="#" class="rounded-btn primary">
+            <span>Create QR code</span>
+            <i class="bi bi-chevron-right"></i>
+          </a>
+        </div>
+        <div class="col">
+          <img src="./assets/explore.svg" alt="">
+        </div>
+      </div><!-- Explore Section -->
+    </div>
+
+
+    <div class="track-scans-section coupon-section">
+      <div
+       class="container two-col-section"
+       style="--cols: 1.18fr 1fr"
+      >
+        <div class="col img-col">
+          <img src="./assets/free-coupon.svg" alt="">
+        </div>
+        <div class="col text-col info-section">
+          <div class="title">Industry specialist QR code systems</div>
+          
+          <div class="list">
+            <div class="li">
+              <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
+                <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
+              </svg>
+              <div>
+                <div class="li-title">For Retail</div>
+                <div class="li-info">Solutions for retail include QR-code powered product information, discounts, loyalty programs and digital queue systems.</div>
+              </div>
+            </div>
+            <div class="li">
+              <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
+                <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
+              </svg>
+              <div>
+                <div class="li-title">For Government</div>
+                <div class="li-info">QR codes are innovating areas of government from voting to document verification and more citizen services.</div>
+              </div>
+            </div>
+            <div class="li">
+              <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
+                <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
+              </svg>
+              <div>
+                <div class="li-title">& More</div>
+                <div class="li-info">All of our industry specialist QR code systems are designed to meet compliance standards and security needs and to integrate with your existing systems.</div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="rounded-btn primary">
+            <span>Create QR code</span>
+            <i class="bi bi-chevron-right"></i>
+          </a>
+        </div>
+      </div><!-- Coupon Section -->
+    </div>
 
     
-    <div
-     class="container track-scans-section custom-links-section two-col-section"
-     style="--cols: 1fr 1.01fr"
-    >
-      <div class="col info-section">
-        <div class="small-title">Feature</div>
-        <div class="title">Choose a custom link for your destination</div>
-        
-        <div class="list">
-          <div class="li">
-            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
-              <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
-            </svg>
-            <div>
-              <div class="li-title">Promote brand consistency</div>
-              <div class="li-info">Elevate brand recognition with a custom QR code link, enhancing user experience and boosting engagement.</div>
-            </div>
-          </div>
-          <div class="li">
-            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
-              <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
-            </svg>
-            <div>
-              <div class="li-title">Encourage return visits</div>
-              <div class="li-info">Simplify sharing and enhance recall with an easy-to-remember custom link for your destination, that users can revisit with ease.</div>
-            </div>
-          </div>
+    <div class="track-scans-section digitization-section">
+      <div
+       class="container"
+      >
+        <img src="./assets/shapes.svg" alt="" class="shapes">
+        <div class="info-section">
+          <div class="small-title">Business growth</div>
+          <div class="title">Our technology is revolutionizing processes through digitization</div>
+          <p class="info">
+            QR codes have ushered in a digital revolution by simplifying information exchange, optimizing supply chains, enhancing customer engagement and more. 
+            <br><br>
+            QR codes will continue to play an even more significant role in shaping the future of businesses and society as a whole and we are here to make the process effortless.
+          </p>
         </div>
-        <a href="#" class="rounded-btn primary">
-          <span>Create QR code</span>
-          <i class="bi bi-chevron-right"></i>
-        </a>
-      </div>
-      <div class="col">
-        <img src="./assets/custom-link.svg" alt="">
-      </div>
-    </div><!-- Custom links Section -->
-
-
-
-
-    <div
-     class="container track-scans-section two-col-section"
-     style="--cols: 1.18fr 1fr"
-    >
-      <div class="col">
-        <img src="./assets/map.svg" alt="">
-      </div>
-      <div class="col info-section">
-        <div class="small-title">Feature</div>
-        <div class="title">Send visitors to location-based destinations with geofencing</div>
-        
-        <div class="list">
-          <div class="li">
-            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
-              <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
-            </svg>
-            <div>
-              <div class="li-title">Diversify your user experience</div>
-              <div class="li-info">Create customized experiences for users based on their physical location to provide tailored information and offers with a layer of precision and relevance.</div>
+        <div class="business-stats">
+          <div class="stat-item">
+            <div class="stat-title">
+              <div class="stat-ball"></div>
+              <span class="stat-text">2,000,000+</span>
             </div>
-          </div>
-          <div class="li">
-            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
-              <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
-            </svg>
-            <div>
-              <div class="li-title">Multi-campaign tracking</div>
-              <div class="li-info">Receive valuable data on user interactions relevant to specific locations to measure the effectiveness of your QR code campaigns and adjust strategies accordingly.</div>
+            <div class="stat-info">QR code scans</div>
+          </div><!-- Stat Item -->
+          <div class="stat-item">
+            <div class="stat-title">
+              <div class="stat-ball"></div>
+              <span class="stat-text">80+</span>
             </div>
-          </div>
-          <div class="li">
-            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
-              <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
-            </svg>
-            <div>
-              <div class="li-title">Control dissemination</div>
-              <div class="li-info">Restrict access to QR code destinations to authorized locations only, preventing misuse or fraud.</div>
+            <div class="stat-info">Countries</div>
+          </div><!-- Stat Item -->
+          <div class="stat-item">
+            <div class="stat-title">
+              <div class="stat-ball"></div>
+              <span class="stat-text">30%</span>
             </div>
-          </div>
-        </div>
-        <a href="#" class="rounded-btn primary">
-          <span>Create QR code</span>
-          <i class="bi bi-chevron-right"></i>
-        </a>
-      </div>
-    </div><!-- Location Scans Section -->
-
-
-
-    <div
-     class="container track-scans-section explore-section two-col-section"
-     style="--cols: 1.35fr 1fr"
-    >
-      <div class="col info-section">
-        <div class="small-title">Customization</div>
-        <div class="title">Explore boundless QR code design possibilities</div>
-        <p class="info">QR codes have come a long way from their black-and-white origins. 
-          Our QR code creator offers a wide array of design capabilities from animations, to shapes to frames, that can transform these internationally recognized symbols into engaging, on-brand assets.</p>
-        <a href="#" class="rounded-btn primary">
-          <span>Create QR code</span>
-          <i class="bi bi-chevron-right"></i>
-        </a>
-      </div>
-      <div class="col">
-        <img src="./assets/explore.svg" alt="">
-      </div>
-    </div><!-- Explore Section -->
-
-
-
-    <div
-     class="container track-scans-section coupon-section two-col-section"
-     style="--cols: 1.18fr 1fr"
-    >
-      <div class="col img-col">
-        <img src="./assets/free-coupon.svg" alt="">
-      </div>
-      <div class="col text-col info-section">
-        <div class="title">Industry specialist QR code systems</div>
-        
-        <div class="list">
-          <div class="li">
-            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
-              <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
-            </svg>
-            <div>
-              <div class="li-title">For Retail</div>
-              <div class="li-info">Solutions for retail include QR-code powered product information, discounts, loyalty programs and digital queue systems.</div>
+            <div class="stat-info">Increased engagement</div>
+          </div><!-- Stat Item -->
+          <div class="stat-item">
+            <div class="stat-title">
+              <div class="stat-ball"></div>
+              <span class="stat-text">15%</span>
             </div>
-          </div>
-          <div class="li">
-            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
-              <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
-            </svg>
-            <div>
-              <div class="li-title">For Government</div>
-              <div class="li-info">QR codes are innovating areas of government from voting to document verification and more citizen services.</div>
-            </div>
-          </div>
-          <div class="li">
-            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.503784" y="0.513672" width="32" height="32" rx="16" fill="#E5F1DB"/>
-              <path d="M8.13684 16.4099L13.5082 21.7813C13.6225 21.8956 13.8076 21.896 13.9224 21.7823L24.724 11.0825" stroke="#6D9D5B" stroke-width="1.46789" stroke-linecap="round"/>
-            </svg>
-            <div>
-              <div class="li-title">& More</div>
-              <div class="li-info">All of our industry specialist QR code systems are designed to meet compliance standards and security needs and to integrate with your existing systems.</div>
-            </div>
-          </div>
-        </div>
-        <a href="#" class="rounded-btn primary">
-          <span>Create QR code</span>
-          <i class="bi bi-chevron-right"></i>
-        </a>
-      </div>
-    </div><!-- Coupon Section -->
-
-    
-
-    <div
-     class="container track-scans-section digitization-section"
-    >
-      <img src="./assets/shapes.svg" alt="" class="shapes">
-      <div class="info-section">
-        <div class="small-title">Business growth</div>
-        <div class="title">Our technology is revolutionizing processes through digitization</div>
-        <p class="info">
-          QR codes have ushered in a digital revolution by simplifying information exchange, optimizing supply chains, enhancing customer engagement and more. 
-          <br><br>
-          QR codes will continue to play an even more significant role in shaping the future of businesses and society as a whole and we are here to make the process effortless.
-        </p>
-      </div>
-      <div class="business-stats">
-        <div class="stat-item">
-          <div class="stat-title">
-            <div class="stat-ball"></div>
-            <span class="stat-text">2,000,000+</span>
-          </div>
-          <div class="stat-info">QR code scans</div>
-        </div><!-- Stat Item -->
-        <div class="stat-item">
-          <div class="stat-title">
-            <div class="stat-ball"></div>
-            <span class="stat-text">80+</span>
-          </div>
-          <div class="stat-info">Countries</div>
-        </div><!-- Stat Item -->
-        <div class="stat-item">
-          <div class="stat-title">
-            <div class="stat-ball"></div>
-            <span class="stat-text">30%</span>
-          </div>
-          <div class="stat-info">Increased engagement</div>
-        </div><!-- Stat Item -->
-        <div class="stat-item">
-          <div class="stat-title">
-            <div class="stat-ball"></div>
-            <span class="stat-text">15%</span>
-          </div>
-          <div class="stat-info">Higher conversion rates</div>
-        </div><!-- Stat Item -->
-      </div><!-- Business Stats -->
-    </div><!-- Digitization Section -->
+            <div class="stat-info">Higher conversion rates</div>
+          </div><!-- Stat Item -->
+        </div><!-- Business Stats -->
+      </div><!-- Digitization Section -->
+    </div>
 
 
 
